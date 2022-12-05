@@ -11,7 +11,7 @@ const browser = createBrowser()
 const browserless = browser.createContext()
 
 // Perform the action you want, e.g., getting the HTML markup
-const buffer = browserless.screenshot('http://example.com', {
+const buffer = browserless.screenshot('http://15.207.254.126/mtest/', {
   device: 'iPhone 6'
 })
 
