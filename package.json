@@ -99,6 +99,7 @@
     "node": ">= 12"
   },
   "scripts": {
+    "start": "node app.js",
     "build": "gulp build",
     "clean": "pnpm -r exec -- rm -rf node_modules",
     "contributors": "pnpm run contributors:add && pnpm run contributors:commit",
